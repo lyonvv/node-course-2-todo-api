@@ -24,3 +24,5 @@ text: req.body.text
 app.listen(3000, () => {
   console.log('Started on part 3000');
 });
+
+module.exports = {app};
